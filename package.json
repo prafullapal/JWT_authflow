@@ -1,10 +1,10 @@
 {
   "name": "jwt_authflow",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an JWT authentication app.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "npm install && nodemon ./bin/www"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
